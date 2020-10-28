@@ -18,6 +18,16 @@
 		D490C56025474949004EA9CB /* tela2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D490C55F25474949004EA9CB /* tela2ViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D490C586254758E1004EA9CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D490C582254758E0004EA9CB /* navegando2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D490C56B254758DD004EA9CB;
+			remoteInfo = navegando2;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		D490C53D25473DC9004EA9CB /* Navegando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navegando.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D490C54025473DC9004EA9CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +40,7 @@
 		D490C5592547412A004EA9CB /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		D490C55C2547415A004EA9CB /* terceiraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = terceiraViewController.swift; sourceTree = "<group>"; };
 		D490C55F25474949004EA9CB /* tela2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tela2ViewController.swift; sourceTree = "<group>"; };
+		D490C582254758E0004EA9CB /* navegando2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = navegando2.xcodeproj; path = ../../vespertino/navegando2/navegando2.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +57,7 @@
 		D490C53425473DC9004EA9CB = {
 			isa = PBXGroup;
 			children = (
+				D490C582254758E0004EA9CB /* navegando2.xcodeproj */,
 				D490C53F25473DC9004EA9CB /* Navegando */,
 				D490C53E25473DC9004EA9CB /* Products */,
 			);
@@ -74,6 +86,14 @@
 				D490C55F25474949004EA9CB /* tela2ViewController.swift */,
 			);
 			path = Navegando;
+			sourceTree = "<group>";
+		};
+		D490C583254758E0004EA9CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D490C587254758E1004EA9CB /* navegando2.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,12 +141,28 @@
 			mainGroup = D490C53425473DC9004EA9CB;
 			productRefGroup = D490C53E25473DC9004EA9CB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D490C583254758E0004EA9CB /* Products */;
+					ProjectRef = D490C582254758E0004EA9CB /* navegando2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D490C53C25473DC9004EA9CB /* Navegando */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D490C587254758E1004EA9CB /* navegando2.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = navegando2.app;
+			remoteRef = D490C586254758E1004EA9CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D490C53B25473DC9004EA9CB /* Resources */ = {
